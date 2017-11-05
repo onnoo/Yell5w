@@ -6,27 +6,44 @@
 -->
 <html>
 	<head>
-		<title>Phantom by HTML5 UP</title>
+		<title>Card News CATEGORY</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<meta property="og:url"           content="index.html" />
+  		<meta property="og:title"         content="Card News" />
+  		<meta property="og:description"   content="Your description" />
+  		<meta property="og:image"         content="images/pic03.jpg" />
+  		<script>
+  		  function sharefacebook(url){
+  		    window.open("http://www.facebook.com/sharer/sharer.php?u=index.html")
+  		  }
+  		</script>
+  		<script>
+  			function sharetwitter(url, text) {
+  				window.open("https://twitter.com/intent/tweet?text=" + text + "&url=" + url);
+  			}
+  		</script>
+
 	</head>
 	<body>
         <!-- Wrapper -->
 			<div id="wrapper">
-
+				
 				<!-- Header -->
 					<header id="header">
 						<div class="inner">
 
 							<!-- Logo -->
-								<a href="index.html" class="logo">
+								<!-- <a href="index.html" class="logo">
 									<span class="symbol"><img src="images/logo.svg" alt="" /></span><span class="title">Phantom</span>
+								</a> -->
+								<a href = "index.html" class = "logo">
+									<span style = "font-weight:300"><span style = "color: magenta ;font-size : 100px">C</span>ARD <span style = "color: #8AE75F ;font-size : 100px">N</span>EWS</span>
 								</a>
-
 							<!-- Nav -->
 								<nav>
 									<ul>
@@ -41,11 +58,11 @@
 					<nav id="menu">
 						<h2>Menu</h2>
 						<ul>
-							<li><a href="firstindex.html">HOME</a></li>
-							<li><a href="generic.html">경제</a></li>
+							<li><a href="index.html">HOME</a></li>
+							<li><a href="economy.html">경제</a></li>
 							<li><a href="generic.html">스포츠</a></li>
 							<li><a href="generic.html">IT/과학</a></li>
-							<li><a href="elements.html">연예</a></li>
+							<li><a href="generic.html">연예</a></li>
                             <li><a href="generic.html">생활</a></li>
                             <li><a href="generic.html">사회</a></li>
 						</ul>
@@ -55,16 +72,15 @@
 					<div id="main">
 						<div class="inner">
 							<header>
-								<h1>Welcome! Here are some CardNews for you.<br />
-								Have a good day *^^*</h1>
-								<p>This is for our OpenSource Project.</p>
+								<h1 align = "center">CATEGORY</h1>
+								
 							</header>
 							<section class="tiles">
 								<article class="style1">
 									<span class="image">
 										<img src="images/pic18.jpg" alt="" />
 									</span>
-									<a href="generic.html">
+									<a href="economy.html">
 										<h2>ECONOMY</h2>
 										<div class="content">
 											<p>경 제</p>
@@ -95,34 +111,34 @@
 								</article>
 								<article class="style4">
 									<span class="image">
-										<img src="images/pic04.jpg" alt="" />
+										<img src="images/pic20.jpg" alt="" />
 									</span>
 									<a href="generic.html">
-										<h2>Tempus</h2>
+										<h2>ENTERTAINMENTS</h2>
 										<div class="content">
-											<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
+											<p>연 예</p>
 										</div>
 									</a>
 								</article>
 								<article class="style5">
 									<span class="image">
-										<img src="images/pic05.jpg" alt="" />
+										<img src="images/pic22.jpg" alt="" />
 									</span>
 									<a href="generic.html">
-										<h2>Aliquam</h2>
+										<h2>Life</h2>
 										<div class="content">
-											<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
+											<p>생 활</p>
 										</div>
 									</a>
 								</article>
 								<article class="style6">
 									<span class="image">
-										<img src="images/pic06.jpg" alt="" />
+										<img src="images/pic21.jpg" alt="" />
 									</span>
 									<a href="generic.html">
-										<h2>Veroeros</h2>
+										<h2>Social</h2>
 										<div class="content">
-											<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
+											<p>사 회</p>
 										</div>
 									</a>
 								</article>
@@ -151,16 +167,11 @@
 								</form>
 							</section>
 							<section>
-								<h2>Follow</h2>
+								<h2>Share</h2>
 								<ul class="icons">
-									<li><a href="#" class="icon style2 fa-twitter"><span class="label">Twitter</span></a></li>
-                                    <li><a href="#" class="icon style2 fa-facebook"><span class="label">Facebook</span></a></li>
-									<li><a href="#" class="icon style2 fa-instagram"><span class="label">Instagram</span></a></li>
-									<li><a href="#" class="icon style2 fa-dribbble"><span class="label">Dribbble</span></a></li>
+									<li><a href="javascript:sharetwitter('index.html','카드뉴스공유')" class=" icon style2 fa-twitter"><span class="label">Twitter</span></a></li>
+                                    <li><a href="javascript:sharefacebook('index.html')" class="icon style2 fa-facebook"><span class="label">Facebook</span></a></li>
 									<li><a href="#" class="icon style2 fa-github"><span class="label">GitHub</span></a></li>
-									<li><a href="#" class="icon style2 fa-500px"><span class="label">500px</span></a></li>
-									<li><a href="#" class="icon style2 fa-phone"><span class="label">Phone</span></a></li>
-									<li><a href="#" class="icon style2 fa-envelope-o"><span class="label">Email</span></a></li>
 								</ul>
 							</section>
 							<ul class="copyright">
@@ -168,7 +179,6 @@
 							</ul>
 						</div>
 					</footer>
-
 			</div>
 
 		<!-- Scripts -->

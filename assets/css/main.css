@@ -2730,27 +2730,27 @@
 					}
 
 			.tiles article.style1 > .image:before {
-				background-color: ;
+				background-color:currentColor;
 			}
 
 			.tiles article.style2 > .image:before {
-				background-color: ;
+				background-color:currentColor;
 			}
 
 			.tiles article.style3 > .image:before {
-				background-color: ;
+				background-color:currentColor;
 			}
 
 			.tiles article.style4 > .image:before {
-				background-color: currentColor;
+				background-color:currentColor ;
 			}
 
 			.tiles article.style5 > .image:before {
-				background-color: currentColor;
+				background-color:currentColor;
 			}
 
 			.tiles article.style6 > .image:before {
-				background-color: currentColor;
+				background-color:currentColor;
 			}
 
 			body:not(.is-touch) .tiles article:hover > .image {
@@ -2853,7 +2853,7 @@
 /* Header */
 
 	#header {
-		padding: 8em 0 0.1em 0 ;
+		
 	}
 
 		#header .logo {
@@ -3344,7 +3344,7 @@
 		width: 100%;
 		max-width: 68em;
 		margin: 0 auto;
-		padding: 0 2.5em;
+		padding: 0 2em;
 	}
 
 		@media screen and (max-width: 736px) {
