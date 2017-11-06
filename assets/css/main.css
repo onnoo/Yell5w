@@ -2643,7 +2643,7 @@
 				}
 
 				.tiles article > .image:after {
-					-moz-pointer-events: none;
+					/*-moz-pointer-events: none;
 					-webkit-pointer-events: none;
 					-ms-pointer-events: none;
 					pointer-events: none;
@@ -2663,7 +2663,7 @@
 					background-repeat: no-repeat;
 					background-size: 100% 100%;
 					opacity: 0.25;
-					z-index: 2;
+					z-index: 2;*/
 				}
 
 			.tiles article > a {
