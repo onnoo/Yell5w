@@ -81,15 +81,7 @@
 										<img src="https://onnoo.github.io/Yell5w/cardnews/sample/cn6.jpeg" alt="" />
 									</span>
 								</article>
-                                
-                                
-<!--
-								<article class="">
-									<span class="image">
-										<img src="cardnews/save-oil/01.jpeg" alt="" onclick="openModal();"/>
-									</span>
-								</article>
--->
+
                                 <article class="">
 									<span class="image">
 										<img src="https://onnoo.github.io/Yell5w/cardnews/sample/cn1.jpeg" alt="" onclick="location.href='https://onnoo.github.io/Yell5w/cardnews/save-oil.html'"/>
@@ -121,26 +113,6 @@
 							</section>
 						</div>
 					</div>
-                
-                <!-- modal -->
-                <div id="myModal" class="w3-modal w3-black" style="z-index: 100001">
-                    <span class="w3-text-white w3-xxlarge w3-hover-text-grey w3-container w3-display-topright" onclick="closeModal();" style="cursor:pointer">×</span>
-                    <div class="w3-dropdown-hover w3-display-topleft w3-margin-top">
-                        <button class="w3-button w3-black">Share it!</button>
-                        <div class="w3-dropdown-content w3-bar-block w3-border">
-                          <a href="javascript:sharefacebook('https://onnoo.github.io/Yell5w/life.html')" class="w3-bar-item w3-button">Facebook</a>
-                          <a href="#" class="w3-bar-item w3-button">Twitter</a>
-                        </div>
-                    </div>
-                    <button class="w3-button w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
-                    <button class="w3-button w3-display-right" onclick="plusDivs(+1)">&#10095;</button>
-                    <img class="mySlides w3-display-middle" src="https://onnoo.github.io/Yell5w/cardnews/sample/cn1.jpeg" style="width:50%">
-                    <img class="mySlides w3-display-middle" src="https://onnoo.github.io/Yell5w/cardnews/sample/cn2.jpeg" style="width:50%">
-                    <img class="mySlides w3-display-middle" src="https://onnoo.github.io/Yell5w/cardnews/sample/cn3.jpeg" style="width:50%">
-                    <img class="mySlides w3-display-middle" src="https://onnoo.github.io/Yell5w/cardnews/sample/cn4.jpeg" style="width:50%">
-                    <img class="mySlides w3-display-middle" src="https://onnoo.github.io/Yell5w/cardnews/sample/cn5.jpeg" style="width:50%">
-                </div>
-
                 
 				<!-- Footer -->
 					<footer id="footer">
@@ -179,47 +151,6 @@
                 
 			</div>
         
-        <script>
-            var slideIndex = 1;
-            showDivs(slideIndex);
-
-            function plusDivs(n) {
-                showDivs(slideIndex += n);
-            }
-            
-            function setDivs() {
-                slideIndex = 1;
-            }
-
-            function showDivs(n) {
-                var i;
-                var x = document.getElementsByClassName("mySlides");
-                if (n > x.length) {closeModal();slideIndex = 1} 
-                if (n < 1) {closeModal();slideIndex = 1} ;
-                for (i = 0; i < x.length; i++) {
-                    x[i].style.display = "none"; 
-                }
-                x[slideIndex-1].style.display = "block"; 
-            }
-            
-            
-            // Get the modal
-            var modal = document.getElementById('id01');
-            
-            function openModal() {
-                document.getElementById('myModal').style.display = "block";
-            }
-
-            function closeModal() {
-                document.getElementById('myModal').style.display = "none";
-            }
-            // When the user clicks anywhere outside of the modal, close it
-            window.onclick = function(event) {
-                if (event.target == modal) {
-                    modal.style.display = "none";
-                }
-            }
-        </script>
 
 		<!-- Scripts -->
 			<script src="https://onnoo.github.io/Yell5w/assets/js/jquery.min.js"></script>
