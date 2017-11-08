@@ -13,40 +13,43 @@
 		<link rel="stylesheet" href="https://onnoo.github.io/Yell5w/assets/css/main.css" />
         
 
-		<meta property="og:url"           content="https://onnoo.github.io/Yell5w/save-oil.html" />
+		<meta property="og:url"           content="https://onnoo.github.io/Yell5w/cardnews/entertainment/ent3.html" />
   		<meta property="og:title"         content="Yell5w Card News" />
-  		<meta property="og:description"   content="기름값 아끼는 주유 방법" />
-  		<meta property="og:image"         content="https://onnoo.github.io/Yell5w/cardnews/save-oil/01.jpeg" />
+  		<meta property="og:description"   content="소녀시대, 10주년을 끝으로 해체?!" />
+  		<meta property="og:image"         content="https://onnoo.github.io/Yell5w/cardnews/entertainment/ent3.png" />
         
         <script>
             function sharefacebook(url) {
                 window.open("http://www.facebook.com/sharer/sharer.php?u=" + url);
             }
+            function sharetwitter(url, text) {
+  				window.open("https://twitter.com/intent/tweet?text=" + text + "&url=" + url);
+  			}
         
         </script>
 	</head>
     
 	<body class="w3-black">
         
-        <span class="w3-text-white w3-xxlarge w3-hover-text-grey w3-container w3-display-topright" style="cursor:pointer"><a href="javascript:window.close();">x</a></span>
+        <span class="w3-text-white w3-xxlarge w3-hover-text-grey w3-container w3-display-topright" style="cursor:pointer" onclick="life.html"><a href="javascript:window.close();">x</a></span>
         <div class="w3-dropdown-hover w3-display-topleft w3-margin-top" style="padding-left: 10px">
             <button class="w3-button w3-black">Share it!</button>
             <div class="w3-dropdown-content w3-bar-block w3-border">
-                <a href="javascript:sharefacebook('https://onnoo.github.io/Yell5w/save-oil.html')" class="w3-bar-item w3-button">Facebook</a>
-                <a href="#" class="w3-bar-item w3-button">Twitter</a>
+                <a href="javascript:sharefacebook('https://onnoo.github.io/Yell5w/cardnews/entertainment/ent3.html')" class="w3-bar-item w3-button">Facebook</a>
+                <a href="javascript:sharetwitter('https://onnoo.github.io/Yell5w/cardnews/entertainment/ent3.html','소녀시대, 10주년을 끝으로 해체?!')" class="w3-bar-item w3-button">Twitter</a>
             </div>
         </div>
+        
+        <a href = "https://onnoo.github.io/Yell5w/" class = "w3-display-topmiddle">
+            <span>https://onnoo.github.io/Yell5w/</span>
+        </a>
+        
         <button class="w3-button w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
         <button class="w3-button w3-display-right" onclick="plusDivs(+1)">&#10095;</button>
         
         <div>
-            <img class="mySlides w3-display-middle" src="https://onnoo.github.io/Yell5w/cardnews/entertainment/ent3.png" style="width:50%">
-        
-        
-        
+            <img class="mySlides w3-display-middle" src="ent3.png" style="width:50%">
         </div>
-       
-                
         
         <script>
             var slideIndex = 1;
@@ -69,24 +72,6 @@
                     x[i].style.display = "none"; 
                 }
                 x[slideIndex-1].style.display = "block"; 
-            }
-            
-            
-            // Get the modal
-            var modal = document.getElementById('id01');
-            
-            function openModal() {
-                document.getElementById('myModal').style.display = "block";
-            }
-
-            function closeModal() {
-                document.getElementById('myModal').style.display = "none";
-            }
-            // When the user clicks anywhere outside of the modal, close it
-            window.onclick = function(event) {
-                if (event.target == modal) {
-                    modal.style.display = "none";
-                }
             }
         </script>
 
